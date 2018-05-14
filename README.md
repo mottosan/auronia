@@ -6,6 +6,7 @@
 * Install dependencies `bundle install`. Refer to (this_ page)[https://coderwall.com/p/whbzrw/install-mysql2-gem-in-mac-os-x-with-mysql-installed-via-brew] for mysql2 gem installation issues
 * Launch mysql server `mysql.server start`
 * Create database and tables `bundle exec rails db:create db:migrate db:seed`
+* Create a new file `config/application.yml` and add a new key called `SECRET_KEY_BASE` set to any random value
 * Launch the rails server `bundle exec rails s"
 * Go to `localhost:3000/admin` to login with admin creds to view the admin dashboard
 
